@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 10px auto;
+}
+.card2 img {
+  width: 150px;
+  cursor: pointer;
+}
+.card2 ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.card2 ul li {
+  list-style-type: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.card2 ul li a {
+  text-decoration: none;
+}
+.pol {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 200px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+.pol:hover {
+  background-color: #fff;
+  color: blue;
+}
+.pol i {
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.car {
+  display: flex;
+}
+.car ul {
+  margin: 0px 30px;
+}
+.rasmorniga {
+  background-color: rgb(86, 86, 193);
+  color: #fff;
+}
+.head {
+  width: 75%;
+  margin: auto;
+}
+.head h1 {
+  font-size: 50px;
+  padding: 30px 0px;
+}
+.head p {
+  line-height: 30px;
+}
+.head .blu {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.head .blu button {
+  background-color: blue;
+  padding: 20px;
+  width: 220px;
+  margin: 10px 20px;
+  text-align: center;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+.head .blu button a {
+  color: #fff;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.head .blu button:hover {
+  background-color: #fff;
+}
+.head .blu button:hover a {
+  color: blue;
+}
+.biznes {
+  text-align: center;
+  padding: 100px;
+}
+.bigbox {
+  width: 70%;
+  margin: auto;
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: center;
+}
+.bigbox2 {
+  width: 70%;
+  margin: auto;
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: center;
+}
+.home {
+  width: 510px;
+  display: flex;
+  padding: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.home:hover {
+  box-shadow: 0px 0px 40px rgb(179, 178, 178);
+}
+.home img {
+  padding: 10px;
+}
+.home .osish h1 {
+  margin: 10px 0px;
+}
+.home .osish p {
+  line-height: 30px;
+}
+.home .osish h3 {
+  padding: 10px 0px;
+}
+.blu {
+  display: flex;
+}
+.katta {
+  display: flex;
+}
